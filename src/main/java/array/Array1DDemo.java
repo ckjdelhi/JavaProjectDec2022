@@ -4,7 +4,7 @@ public class Array1DDemo {
 
 	public static void main(String[] args) {
 			
-		String s1="A";
+		String s1="B";
 		String s2="B";
 		String s3="C";
 		String s4="D";
