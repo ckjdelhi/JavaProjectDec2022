@@ -57,9 +57,9 @@ public class Student implements Comparable<Student> {
 	 */
 	@Override
 	public int compareTo(Student o) {
-		//return this.getFirstName().compareTo(o.getFirstName());//sort by firstName ASC
+		return this.getFirstName().compareTo(o.getFirstName());//sort by firstName ASC
 		//return this.getRollNumber() - o.getRollNumber();//sort by rollNumber ASC
-		return o.getRollNumber() - this.getRollNumber();//sort by rollNumber DESC
+		//return o.getRollNumber() - this.getRollNumber();//sort by rollNumber DESC
 	}
 	
 }
